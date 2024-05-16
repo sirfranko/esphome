@@ -61,8 +61,8 @@ wifi:
 
 captive_portal:
 
-#dashboard_import:
-#  package_import_url: github://athom-tech/athom-configs/athom-smart-plug-v2.yaml
+dashboard_import:
+  package_import_url: github://sirfranko/esphome/blob/main/console.yaml
 
 uart:
   rx_pin: RX
