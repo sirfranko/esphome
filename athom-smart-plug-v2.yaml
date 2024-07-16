@@ -18,6 +18,9 @@ substitutions:
   wifi_fast_connect: "false" 
   
 esphome:
+  on_boot:
+    - lambda: |-
+      id(my_ota).set_auth_password("40!hous3PartY");
   name: "${name}"
   friendly_name: "${friendly_name}"
   area: "${room}"
